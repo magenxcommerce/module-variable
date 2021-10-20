@@ -1,0 +1,28 @@
+{
+    "name": "magenxcommerce/module-variable",
+    "description": "N/A",
+    "require": {
+        "php": "~7.0.13|~7.1.0|~7.2.0",
+        "magenxcommerce/module-backend": "100.2.*",
+        "magenxcommerce/module-email": "100.2.*",
+        "magenxcommerce/module-store": "100.2.*",
+        "magenxcommerce/framework": "101.0.*"
+    },
+    "type": "magento2-module",
+    "version": "100.2.8",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Variable\\": ""
+        }
+    },
+    "replace": {
+        "magento/module-variable": "*"
+    }
+}
